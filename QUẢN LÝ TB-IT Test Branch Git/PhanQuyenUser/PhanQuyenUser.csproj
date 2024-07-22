@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.XtraBars.v19.1">
+      
+    </Reference>
+  </ItemGroup>
+
+</Project>

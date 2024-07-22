@@ -1,0 +1,11 @@
+DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraBars.Docking2010.DocumentManager, DevExpress.XtraBars.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraEditors.SearchLookUpEdit, DevExpress.XtraGrid.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraBars.BarManager, DevExpress.XtraBars.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v19.1, Version=19.1.16.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Patch.InMemoryPatch, DevExpress.Patch.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7fc7bfca2443de66

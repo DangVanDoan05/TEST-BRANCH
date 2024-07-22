@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E33D2835-94A8-413F-A7FA-0CF9989D891C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAO</RootNamespace>
+    <AssemblyName>DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BBBanGiaoDAO.cs" />
+    <Compile Include="BoPhanDAO.cs" />
+    <Compile Include="ChiTietCauHinhDAO.cs" />
+    <Compile Include="ChucVuDAO.cs" />
+    <Compile Include="CommonConnection.cs" />
+    <Compile Include="DsCaiDatDAO.cs" />
+    <Compile Include="DsWebDAO.cs" />
+    <Compile Include="LsUpdatePMDAO.cs" />
+    <Compile Include="HangMucBaoTriDAO.cs" />
+    <Compile Include="KeHoachBDDAO.cs" />
+    <Compile Include="LichSuBTDAO.cs" />
+    <Compile Include="QlyDonHangPBDAO.cs" />
+    <Compile Include="DanhSachMayInDAO.cs" />
+    <Compile Include="QLyVTTHDAO.cs" />
+    <Compile Include="QuanLyMayTinhDAO.cs" />
+    <Compile Include="DanhSachPhanMemDAO.cs" />
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="DSTHIETBIBGDAO.cs" />
+    <Compile Include="GiaiTrinhMuaTBITDAO.cs" />
+    <Compile Include="LoaiMayTinhDAO.cs" />
+    <Compile Include="LoaiYCKTDAO.cs" />
+    <Compile Include="MaCongCuDAO.cs" />
+    <Compile Include="MaLinhKienDAO.cs" />
+    <Compile Include="MaMatHangDAO.cs" />
+    <Compile Include="NhaCungCapDAO.cs" />
+    <Compile Include="NHAMAYDAO.cs" />
+    <Compile Include="NhomDAO.cs" />
+    <Compile Include="PhongBanDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLNhanVienDAO.cs" />
+    <Compile Include="QLyVTSDDAO.cs" />
+    <Compile Include="QLYCDOITBDAO.cs" />
+    <Compile Include="QLYCHUCNANGDAO.cs" />
+    <Compile Include="QlyPhanQuyenDAO.cs" />
+    <Compile Include="QLyYCADIDDAO.cs" />
+    <Compile Include="QlyYcSDvaTaiPMDAO.cs" />
+    <Compile Include="QlyYCTcWebDAO.cs" />
+    <Compile Include="QuanLyQuyenDAO.cs" />
+    <Compile Include="TablePermission.cs" />
+    <Compile Include="ThongKeNhapDAO.cs" />
+    <Compile Include="ThongKeTHDAO.cs" />
+    <Compile Include="ThongKeXuatDAO.cs" />
+    <Compile Include="TinhTrangKiemKeDAO.cs" />
+    <Compile Include="TinhTrangYCKTDAO.cs" />
+    <Compile Include="TonLinhKienDAO.cs" />
+    <Compile Include="TonLKThuHoiDAO.cs" />
+    <Compile Include="UserDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChuoiKetNoi\ChuoiKetNoi.csproj">
+      <Project>{51b87b28-80cb-4083-8937-1d4fa7710854}</Project>
+      <Name>ChuoiKetNoi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CONNECTION\CONNECTION.csproj">
+      <Project>{902baed6-babb-4fd0-a2ef-a6bcbb68e2af}</Project>
+      <Name>CONNECTION</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{2bf635e6-7be9-4a2d-86b7-81e7ea64b61a}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhanQuyenUngDung\PhanQuyenUngDung.csproj">
+      <Project>{9c51489d-e1f3-4d65-b247-f25ad2b6b332}</Project>
+      <Name>PhanQuyenUngDung</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
