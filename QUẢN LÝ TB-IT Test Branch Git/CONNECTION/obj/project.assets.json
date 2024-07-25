@@ -3827,19 +3827,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m1029dd\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\QuanLyITTestBranch(Tester)\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\CONNECTION.csproj",
+      "projectUniqueName": "D:\\Test Lỗi Checkout luôn\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\CONNECTION.csproj",
       "projectName": "CONNECTION",
-      "projectPath": "E:\\QuanLyITTestBranch(Tester)\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\CONNECTION.csproj",
-      "packagesPath": "C:\\Users\\m1029dd\\.nuget\\packages\\",
-      "outputPath": "E:\\QuanLyITTestBranch(Tester)\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\obj\\",
+      "projectPath": "D:\\Test Lỗi Checkout luôn\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\CONNECTION.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Test Lỗi Checkout luôn\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\m1029dd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
