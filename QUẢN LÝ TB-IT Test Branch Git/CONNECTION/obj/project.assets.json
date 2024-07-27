@@ -3832,11 +3832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test Lỗi\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\CONNECTION.csproj",
+      "projectUniqueName": "D:\\Test Nhánh\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\CONNECTION.csproj",
       "projectName": "CONNECTION",
-      "projectPath": "D:\\Test Lỗi\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\CONNECTION.csproj",
+      "projectPath": "D:\\Test Nhánh\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\CONNECTION.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Test Lỗi\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\obj\\",
+      "outputPath": "D:\\Test Nhánh\\TEST-BRANCH\\QUẢN LÝ TB-IT Test Branch Git\\CONNECTION\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
